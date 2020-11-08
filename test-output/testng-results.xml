@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-05T19:36:17Z" name="Default suite" finished-at="2020-11-05T19:36:36Z" duration-ms="19003">
+    <groups>
+    </groups>
+    <test started-at="2020-11-05T19:36:17Z" name="Default test" finished-at="2020-11-05T19:36:36Z" duration-ms="19003">
+      <class name="PhaseOne">
+        <test-method is-config="true" signature="beforeTestSuite()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:15Z" name="beforeTestSuite" finished-at="2020-11-05T21:36:17Z" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method signature="testOne()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:17Z" name="testOne" finished-at="2020-11-05T21:36:32Z" duration-ms="15833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:17Z" name="beforeEachTest" finished-at="2020-11-05T21:36:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:32Z" name="afterEachTest" finished-at="2020-11-05T21:36:32Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOne status=SUCCESS method=PhaseOne.testOne()[pri:0, instance:PhaseOne@428640fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:32Z" name="beforeEachTest" finished-at="2020-11-05T21:36:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="testThree()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:32Z" name="testThree" finished-at="2020-11-05T21:36:34Z" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:34Z" name="afterEachTest" finished-at="2020-11-05T21:36:34Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testThree status=SUCCESS method=PhaseOne.testThree()[pri:0, instance:PhaseOne@428640fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:34Z" name="beforeEachTest" finished-at="2020-11-05T21:36:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="testTwo()[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:34Z" name="testTwo" finished-at="2020-11-05T21:36:36Z" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:36Z" name="afterEachTest" finished-at="2020-11-05T21:36:36Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwo status=SUCCESS method=PhaseOne.testTwo()[pri:0, instance:PhaseOne@428640fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="afterTestSuite(org.testng.ITestContext)[pri:0, instance:PhaseOne@428640fa]" started-at="2020-11-05T21:36:41Z" name="afterTestSuite" finished-at="2020-11-05T21:37:17Z" duration-ms="36707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bd2af5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- PhaseOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
